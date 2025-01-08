@@ -40,7 +40,7 @@ end
 
 --[[ end configs, don't edit this especially if you have no idea what Lua is lmao ]]--
 
-local CometBottversion = "v0.01 Not | Out"
+local CometBotversion = "v0.01 Not | Out"
 local CometBotchangelogs = "none"
 
 local gameData = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
@@ -567,7 +567,7 @@ commands = {
 					
 					allwhitelisted = true
 					
-					chat("Whitelisted all players that are currently in the game! Type .cmds to view commands.")
+					chat("hi")
 				else
 					local plr = searchPlayers(towhitelist)
 					
@@ -1248,7 +1248,7 @@ if req ~= nil then
 		["Content-Type"] = "application/json"
 	    },
 	    Body = game.HttpService:JSONEncode({
-		content = "<@598958193032560642>",
+		content = "<@1326374128403353633>",
 		embeds = {
 			title = "CometBot Execution",
 			description = "CometBot has been executed by " .. bot.DisplayName .. "!",
